@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Catalog from './components/catalog/Catalog';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import Hero from './components/hero/Hero';
+import PraiseYourself from './components/praise_yourself/PraiseYourself';
+import BasketProvider from './store/BasketContext';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const AppContent = () => {
+	return (
+		<div>
+			<Header />
+			<Hero />
+			<PraiseYourself />
+			<Catalog />
+			<Footer />
+		</div>
+	);
+};
+
+const App = () => {
+	return (
+		<BasketProvider>
+			<AppContent />
+		</BasketProvider>
+	);
+};
 
 export default App;

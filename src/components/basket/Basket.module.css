@@ -1,0 +1,77 @@
+.basket {
+	display: flex;
+	flex-direction: column;
+	padding: 44px;
+	width: 671px;
+	min-height: 160px;
+	border-radius: 20px;
+	background: rgb(255, 255, 255);
+}
+
+.basket__content {
+	max-height: 228px;
+	overflow-y: scroll;
+	padding-right: 30px;
+}
+
+.basket__content::-webkit-scrollbar {
+	width: 11px;
+	background-color: #2E343C;
+	border-radius: 10px;
+}
+
+.basket__content::-webkit-scrollbar-thumb {
+	background-color: #565B60;
+	border-radius: 5px;
+}
+
+.basket__bottomPart {
+	display: flex;
+	flex-direction: column;
+	/* padding-top: 28px; */
+}
+
+.bottomPart__info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottomPart__title {
+	color: rgb(34, 34, 34);
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.bottomPart__totalAmount {
+	font-size: 19px;
+	font-weight: 600;
+	line-height: 33px;
+}
+
+.bottomPart__actions {
+	margin-top: 25px;
+	align-self: flex-end;
+	display: flex;
+	gap: 15px;
+}
+
+.bottomPart__button {
+	border-radius: 20px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #DBCCBA;
+	border: 1px solid #DBCCBA;
+	width: 100px;
+	height: 40px;
+	background-color: #dbccba80;
+}
+
+.bottomPart__button:hover {
+	opacity: 0.9;
+}
+
+.bottomPart__button:active {
+	opacity: 0.8;
+}

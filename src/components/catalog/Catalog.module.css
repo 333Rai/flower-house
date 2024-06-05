@@ -1,0 +1,19 @@
+.catalog {
+	padding: 100px 0;
+}
+
+.catalog__title {
+	color: rgb(0, 0, 0);
+	font-size: 44px;
+	font-weight: 300;
+	width: 767px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.catalog__content {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 23px;
+	padding: 44px 0;
+}

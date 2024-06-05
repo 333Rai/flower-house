@@ -1,0 +1,24 @@
+.navbar {}
+
+.navbar__logo {
+	color: rgb(44, 44, 44);
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 35px;
+	letter-spacing: 12.5%;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 0 0 15px #111;
+}
+
+.navbar__group {
+	margin-top: 70px;
+	width: 143px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar__link {
+	text-decoration: none;
+	color: #111;
+}

@@ -1,0 +1,21 @@
+.categories {}
+
+.categories__title {
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+
+.categories__list {
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+}
+
+.categories__item {
+	list-style: none;
+	color: rgb(44, 44, 44);
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 20px;
+}

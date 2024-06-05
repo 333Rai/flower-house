@@ -1,0 +1,33 @@
+.praiceYourself {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 100px 0;
+}
+
+.praiceYourself__info {}
+
+.praiceYourself__title {
+	font-size: 44px;
+	font-weight: 300;
+	line-height: 66px;
+	width: 630px;
+	margin-bottom: 55px;
+}
+
+.praiceYourself__description {
+	width: 611px;
+	color: rgb(44, 44, 44);
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 137.7%;
+}
+
+.praiceYourself__imageWrap {
+	width: 515px;
+	height: 430px;
+}
+
+.praiceYourself__image {
+	width: 100%;
+}

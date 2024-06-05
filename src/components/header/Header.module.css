@@ -1,0 +1,63 @@
+#header {
+	position: sticky;
+	top: 0;
+	background-color: #f8f3ecbe;
+	backdrop-filter: blur(5px);
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+.header__nav {}
+
+.header__list {
+	width: 250px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__item {
+	list-style: none;
+}
+
+.header__link {
+	text-decoration: none;
+	color: rgb(44, 44, 44);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.header__logo {
+	color: rgb(44, 44, 44);
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 35px;
+	letter-spacing: 12.5%;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 0 0 15px #111;
+}
+
+.header__actions {
+	width: 111px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__button {}
+
+.basketButton {
+	position: relative;
+}
+
+.basketLength {
+	position: absolute;
+	bottom: 0;
+	right: -5px;
+	font-size: 15px;
+}
